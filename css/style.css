@@ -1,0 +1,67 @@
+#main-section .inner-section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+body {
+  background: #fffa01;
+  background: -webkit-linear-gradient(top left, #fffa01, #7bff6f);
+  background: -moz-linear-gradient(top left, #fffa01, #7bff6f);
+  background: linear-gradient(to bottom right, #fffa01, #7bff6f);
+}
+
+#hidden {
+  display: none;
+}
+
+.yellow-background {
+  background-color: #ffff9e;
+}
+
+.video-container {
+  max-width: 1600px;
+  margin: auto;
+  height: 100vh;
+}
+
+#photoshop-header::after,
+#lightroom-header::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#photoshop-header {
+  background: url('../img/photoshop-1.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  min-height: 700px;
+  color: #fff;
+}
+
+#lightroom-header {
+  background: url('../img/photoshop-1.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  min-height: 700px;
+  color: #fff;
+}
+
+#photoshop-header > *,
+#lightroom-header > * {
+  z-index: 10;
+  position: relative;
+}
+
+#photoshop-header .header-inner,
+#lightroom-header .header-inner {
+  padding-top: 40px;
+}
