@@ -39,7 +39,6 @@ body {
 
 #photoshop-header {
   background: url('../img/photoshop-1.jpg');
-  background-repeat: no-repeat;
   background-size: auto;
   position: relative;
   min-height: 700px;
@@ -48,7 +47,6 @@ body {
 
 #lightroom-header {
   background: url('../img/photoshop-1.jpg');
-  background-repeat: no-repeat;
   background-size: auto;
   position: relative;
   min-height: 700px;
