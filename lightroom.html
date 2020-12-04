@@ -229,64 +229,68 @@
 
     <!-- CONTACT MODAL -->
 
-    <div class="modal fade text-dark" id="contactModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Contact</h5>
-            <button class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body">
-            <form
-              name="contact"
-              netlify-honeypot="bot-field"
-              method="POST"
-              data-netlify="true"
-              action="process.php"
-              data-netlify-recaptcha="true"
-            >
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input class="form-control" type="text" name="name" id="name" />
+        <!-- CONTACT MODAL -->
+
+        <div class="modal fade text-dark" id="contactModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Contact</h5>
+                <button class="close" data-dismiss="modal">&times;</button>
               </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  class="form-control"
-                  type="email"
-                  name="email"
-                  id="email"
-                />
+              <div class="modal-body">
+                <form
+                  name="contactv2"
+                  netlify-honeypot="bot-field"
+                  method="POST"
+                  data-netlify="true"
+                >
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" name="name" id="name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      class="form-control"
+                      type="email"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                      class="form-control"
+                      rows="10"
+                      name="message"
+                      id="message"
+                    ></textarea>
+                  </div>
+                  <p class="hidden" id="hidden">
+                    <label
+                      >Don't fill this out if you're human:
+                      <input type="text" name="bot-field" />
+                    </label>
+                  </p>
+                  <!-- <div class="text-center">
+                    <div class="recaptcha" data-netlify-recaptcha="true"></div>
+                  </div> -->
+                  <button class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                  </button>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
               </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea rows="10"
-                  class="form-control"
-                  name="message"
-                  id="message"
-                ></textarea>
-              </div>
-              <p class="hidden" id="hidden">
-                <label
-                  >Don't fill this out if you're human:
-                  <input type="text" name="bot-field" />
-                </label>
-              </p>
-              <div class="text-center">
-                <div class="recaptcha" data-netlify-recaptcha="true"></div>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary" data-dismiss="modal">
-              Close
-            </button>
-            <button type="submit" class="btn btn-primary">Submit</button>
+              <!-- <div class="modal-footer">
+                <button class="btn btn-secondary" data-dismiss="modal">
+                  Close
+                </button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div> -->
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
     <!-- FOOTER -->
 
     <footer
