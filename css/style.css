@@ -15,10 +15,6 @@ body {
   display: none;
 }
 
-.yellow-background {
-  background-color: #ffff9e;
-}
-
 .video-container {
   max-width: 1600px;
   margin: auto;
