@@ -9,6 +9,7 @@ body {
   background: -moz-radial-gradient(top right, #026ccc, #0d0745);
   background: radial-gradient(to bottom left, #026ccc, #0d0745);
   color: #fff;
+  background-attachment: fixed;
 }
 
 #hidden {
