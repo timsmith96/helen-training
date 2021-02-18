@@ -61,3 +61,17 @@ body {
 #lightroom-header .header-inner {
   padding-top: 40px;
 }
+
+/* Media queries */
+
+@media (max-width: 999px) {
+  #main-footer {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  #footer-small-screens {
+    display: none;
+  }
+}
