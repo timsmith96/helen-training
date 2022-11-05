@@ -5,7 +5,6 @@ A professional informational website built to host Photoshop and Lightroom video
 
 - HTML
 - CSS
-- JavaScript
 - Bootstrap
 
 ## Features
